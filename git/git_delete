@@ -1,0 +1,15 @@
+删除文件：
+	git rm <file>
+恢复文件：
+	git restore
+回退：
+	git reflog 查看历史版本
+	git reset --hard 版本号 
+	
+上传到远程仓库
+	git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M master
+    git remote add origin git@github.com:Doraemon-v/one_Study.git
+    git push -u origin master
